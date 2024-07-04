@@ -27,6 +27,21 @@ html, body{
     width: 65%;
     height: 65%;
 }
+#box{
+    display: flex;
+    position: absolute;
+    top: 67.3%;
+    right: 31.3%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+#box h3{
+    color: #fff;
+    font-size: 30px;
+}
 .toptxt{
     display: flex;
     color: #fff;
