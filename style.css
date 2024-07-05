@@ -17,8 +17,46 @@ html, body{
     background-size: cover;
 }
 #nav{
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav #mitem{
+    display: flex;
+    gap: 30px;
+}
+.ri-arrow-right-circle-line{
+    font-size: 40px;
+    font-weight: 200;
+}
+.ri-menu-line{
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+}
+#mitem h3{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#mitem h3:nth-child(2):before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-5px);
+    height: 1px;
+    width: 10px;
+    background-color: #fff;
 }
 #top{
     padding-top: 10px;
